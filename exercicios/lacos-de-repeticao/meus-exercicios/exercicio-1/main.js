@@ -1,4 +1,4 @@
-let numero = 1
+let numero = 1;
 
 while (numero < 2026) {
 	console.log(numero);
