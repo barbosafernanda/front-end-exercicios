@@ -1,9 +1,12 @@
-let n = prompt('Insira um número maior do que 1');
-let numero = 0;
+let n = parseInt(prompt('Insira um número maior do que 1'));
+let soma = 0;
+let contador = 0;
 
 
-while (numero >= 1 && numero <= n) {
-console.log (numero);
-numero = numero + 1;
+while (contador <= n) {
+soma = soma + contador;
+contador = contador + 1; 
 
 }
+
+console.log("A soma é:", soma);
