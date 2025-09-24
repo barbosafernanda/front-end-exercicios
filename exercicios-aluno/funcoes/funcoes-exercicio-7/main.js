@@ -1,10 +1,31 @@
-function numeros (x) {
-    if ( typeof x == 'number') {
-        return x;
-} else ( typeof x != 'number') 
-        return x;
-} 
+const texto = "não é um número" 
+const maior = "maior do que zero"
+ 
+ function valor (x) {
+ if ( typeof x != 'number') 
+        return texto;
+ else ( typeof x == 'number') 
+        return x
+}
 
 
 
-console.log (numeros(abacaxi));
+console.log (15);
+console.log 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     if ( typeof x == 'number') {
+//         return x;
