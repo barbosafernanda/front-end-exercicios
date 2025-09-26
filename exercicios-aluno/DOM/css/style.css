@@ -9,3 +9,8 @@
     max-width: 200px;
     align-self: center;
 }
+
+.fora-de-estoque {
+    background-color: red;
+
+}
